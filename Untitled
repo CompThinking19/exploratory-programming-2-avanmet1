@@ -1,0 +1,10 @@
+def ball(numbers):
+    if type(numbers) != list:
+        raise TypeError("Incorrect Format")
+    for element in numbers:
+        if type(element) == int:
+            print "Yes!"
+            return
+ball([2, 3, 4])
+
+ball(4)
